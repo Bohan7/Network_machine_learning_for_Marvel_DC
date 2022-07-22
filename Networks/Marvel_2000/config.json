@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Nearchos Potamitis, Bohan Wang"
+  },
+  "text": {
+    "more": "This graph displays the Marvel community portrayed during the 2000 comics. \nEach edge connecting 2 characters represents the weight for that specific connection given by the formula : Weight \u003d #Affiliations + 0.5*#Relatives + 0.1*#Shared Comics.\nWe colored differently each commnunity of the graph. To seperate the characters we used the Louvain modularity, community detection algorithm.",
+    "intro": "Marvel Community Graph 2000 ",
+    "title": "Marvel 2000"
+  },
+  "legend": {
+    "edgeLabel": "Weights",
+    "colorLabel": "Louvain Modularity",
+    "nodeLabel": "Characters"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Good",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
