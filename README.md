@@ -1,5 +1,9 @@
-# NML_Project
-This is our submission for the final project of the Network Machine Learning at EPFL 2022. You can visit our github repository [here](https://github.com/Potamitisn/NML_Project) and our google drive [here](https://drive.google.com/drive/folders/1kD9TzG5XSjifvF5h2nIBNbqlyobuExj2).
+# Network machine learning for Marvel and DC dataset
+In the project, 
+
+we firstly examined the data in their current form but we also created graphs associating different characters based on their common attributes. In particular, we dealed with common affiliations, relatives and appearances in the same comics. We inspected different aspects of these graphs such as their global properties, the type of the graph and the properties of the nodes. To be more specific we looked into things like connected components, sparsity, diameter but also clustering coefficients and degree distribution. Additionally, we used *spectral graph theory* to review the attributes of the graph.
+
+Finally, we concentrated on two different classification tasks performed on the created networks. Firstly, we tried to distinguish good, bad and evil characters and then apply the same principle over different affiliations instead. For example, for the character classification we labeled \href{https://marvel.fandom.com/wiki/Peter_Parker_(Earth-616)}{Spiderman} as a good character and then for the affiliation classification we labeled the \href{https://marvel.fandom.com/wiki/Avengers_(Earth-616)}{Avengers} as a good unit. To make this happen we will use *different classical machine learning algorithms*, *regularization methods* and finally we defined our own architecture for a *graph convolutional neural network*. 
 
 ## Table of Contents
 1. [Instructions](#Instructions)
